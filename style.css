@@ -212,6 +212,59 @@ nav{
 }
 
 
+
+/* Exclusive section */
+
+.my-card{
+    display: flex;
+    margin: 3px 0;
+    flex-direction: column;
+    height: 464px;
+    min-width: 300px;
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.my-card img{
+    height: 321px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.my-card-title h2{
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+.my-card-title h4{
+    display: block;
+    font-size: 12px;
+    font-weight:400;
+    color: rgb(25, 25, 25);
+    line-height: 20px;
+}
+
+.my-exclusive-button{
+    display: none;
+}
+
+.my-card:hover{
+    .my-exclusive-button{
+        display: block;
+    }
+    .my-card-title h4{
+        display: none;
+    }
+}
+
+div{
+    box-sizing: border-box !important;
+}
+
 @media screen and (min-width:720px){
     .my-carousel{
         height: 570px;
@@ -249,6 +302,8 @@ nav{
     .my-learn-more-button{
         font-size: 16px;
     }
+
+    
     
 }
 
@@ -256,9 +311,16 @@ nav{
     .my-headings{
         font-size: 32px;
     }
+
+    /* exclusive section */
+    .my-card-title h2{
+        font-size: 16px;
+    }
+
+    .my-card-title h4{
+        font-size: 14px;
+    }
 }
-
-
 
 
 
