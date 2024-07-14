@@ -1,0 +1,267 @@
+:root{
+    --skeleton-color: #eee;
+    --brand-orange: #ff6900;
+    --brand-orange-90: #ff7819;
+    --brand-orange-80: #ff8733;
+    --brand-orange-70: #ff964c;
+    --brand-orange-60: #ffa566;
+    --brand-orange-50: #ffb47f;
+    --brand-orange-40: #ffc399;
+    --brand-orange-30: #ffd2b2;
+    --brand-orange-20: #ffe1cc;
+    --brand-orange-10: #fff0e5;
+    --brand-grey: #898989;
+    --brand-grey-90: #949494;
+    --brand-grey-80: #a1a1a1;
+    --brand-grey-70: #acacac;
+    --brand-grey-60: #b8b8b8;
+    --brand-grey-50: #c4c4c4;
+    --brand-grey-40: #d0d0d0;
+    --brand-grey-30: #dbdbdb;
+    --brand-grey-20: #e7e7e7;
+    --brand-grey-10: #f3f3f3;
+    --brand-black: #191919;
+    --brand-black-90: #303030;
+    --brand-black-80: #474747;
+    --brand-black-70: #5e5e5e;
+    --brand-black-60: #757575;
+    --brand-black-50: #8c8c8c;
+    --brand-black-40: #a3a3a3;
+    --brand-black-30: #dbdbdb;
+    --brand-black-20: #d1d1d1;
+    --brand-black-10: #e8e8e8;
+    --brand-reverse: #fff;
+    --text-base: #191919;
+    --text-reverse: #fff;
+    --text-primary: #ff6900;
+    --text-secondary: #898989;
+    --text-black: #333;
+    --text-error: #ff4e4e;
+    --background-base: #f7f7f7;
+    --background-white: #fff;
+    --background-grey: #dbdbdb;
+    --background-light-grey: #f5f5f5;
+    --background-black: #191919;
+    --background-primary: #ff6900;
+    --background-primary-light: #fff0e6;
+    --background-disable: #ddd;
+    --background-loader: #ff6900;
+    --border-base: #898989;
+    --border-footer: #2e2e2e;
+    --border-input: #b0b0b0;
+    --border-primary: #ff6900;
+    --border-secondary: #191919;
+    --border-popover: #e0e0e0;
+    --shadow-black-a2: rgba(0,0,0,.02);
+    --shadow-black-a5: rgba(0,0,0,.05);
+    --shadow-black-a7: rgba(0,0,0,.07);
+    --shadow-black-a8: rgba(0,0,0,.08);
+    --shadow-black-a10: rgba(0,0,0,.1);
+    --shadow-black-a15: rgba(0,0,0,.15);
+    --shadow-black-a20: rgba(0,0,0,.2);
+    --shadow-black-a25: rgba(0,0,0,.25);
+    --shadow-black-a30: rgba(0,0,0,.3);
+    --shadow-black-a40: rgba(0,0,0,.4);
+    --shadow-black-a50: rgba(0,0,0,.5);
+    --shadow-black-a60: rgba(0,0,0,.6);
+    --shadow-white-a10: rgba(255,255,225,.1);
+    --shadow-white-a20: rgba(255,255,225,.2);
+    --shadow-white-a30: rgba(255,255,225,.3);
+    --shadow-white-a50: rgba(255,255,225,.5);
+    --shadow-white-a80: rgba(255,255,225,.8);
+    --shadow-white-a90: rgba(255,255,225,.9);
+    --shadow-primary-a10: rgba(255,105,0,.1);
+    --shadow-primary-a20: rgba(255,105,0,.2);
+    --shadow-primary-a30: rgba(255,105,0,.3);
+    --shadow-primary-a40: rgba(255,105,0,.4);
+    --shadow-primary-a50: rgba(255,105,0,.5);
+    --bs-font-sans-serif: "Open Sans", sans-serif;
+
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+
+/* my section */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+nav{
+    font-size: 16px;
+}
+
+@media screen and (min-width:992px) {
+    nav{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:1126px){
+    nav{
+        font-size: 16px;
+    }
+}
+
+
+.my-carousel{
+    display: flex;
+    height: 480px;
+}
+
+
+.my-bg1{
+    background-image: url("images/carousel-image-sm.webp");
+}
+.my-bg2{
+    background-image: url("images/carousel-image-sm-2.webp");
+}
+.my-bg3{
+    background-image: url("images/carousel-image-sm-3.webp");
+}
+.my-carousel-image{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-carousel-section{
+    text-align: center;
+    padding-top: 8%;
+    max-width: 40%;
+}
+.my-carousel-title{
+    font-size: 24px;
+    font-weight:700;
+    color: rgb(25, 25, 25);
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom:2%;
+}
+.my-carousel-subtitle{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.5px;
+    padding: 2% 0 0 0;
+}
+.my-learn-more-button{
+        margin: 0;
+        background-color: #191919;
+        color: rgb(255, 255, 255);
+        column-gap: 24px;
+        font-weight: 700;
+        font-size: 12px;
+        border-radius: 10px;
+        padding: 5px;
+}
+.my-learn-more-button:hover{
+    background-color: #333333 ;
+    cursor: pointer;
+}
+.my-headings{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#my-selected{
+    color: #ff6900;
+    border-bottom: 2px solid #ff6900;
+    padding-bottom: 10px;
+}
+
+.my-items li{
+    background-color: rgb(247, 247, 247);
+}
+
+.product-card {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0;
+    background-color:rgb(247, 247, 247);
+    min-height: 200px;
+    max-height: 400px;
+}
+.product-card img {
+    max-width: 138px;
+    height:80px;
+    max-height: 138px;
+    border-radius: 10px;
+}
+.product-card h5 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.product-card .price {
+    color: #000;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+.product-card .original-price {
+    color: #888;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+
+@media screen and (min-width:720px){
+    .my-carousel{
+        height: 570px;
+    }
+    .my-bg1{
+        background-image: url("images/carousel-image.jpg");
+    }
+    .my-bg2{
+        background-image: url("images/carousel-image2.webp");
+    }
+    .my-bg3{
+        background-image: url("images/carousel-image-3.webp");
+    }
+    .my-carousel-image{
+        justify-content: center;
+        align-items: normal;
+    }
+    .my-carousel-section{
+        text-align: left;
+        padding-left: 5%;
+        max-width: 30%;
+        padding-bottom: 3%;
+        padding-top: 0;
+    }
+    .my-carousel-title{
+        font-size: 36px;
+        line-height: 45px;
+    }
+    
+    .my-carousel-subtitle{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .my-learn-more-button{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    .my-headings{
+        font-size: 32px;
+    }
+}
+
+
+
+
+
+
+
+
