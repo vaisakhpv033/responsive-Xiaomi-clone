@@ -261,6 +261,71 @@ nav{
     }
 }
 
+
+.my-footer{
+    background-color: #191919;
+}
+
+.my-logos>button{
+    border-radius: 40%;
+    border: none;
+    background-color: rgb(208, 208, 208);
+    margin-right: 25px;
+    height: auto;
+    width: auto;
+}
+
+.my-logos>button:hover{
+    background-color: white;
+}
+
+
+.my-footer-text p{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 16px;
+    text-size-adjust: 100%;
+    margin:8 0;
+}
+
+.my-footer-input{
+    background-color: #191919;
+    border-radius: 12px;
+}
+
+.my-footer-input::placeholder{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 12px;
+}
+
+.my-footer-button{
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.my-footer-text-end a{
+    font-size: 10px;
+    margin: 0;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.my-footer-text-end a:hover{
+    border-bottom: 1px solid white;
+}
+
+.my-footer-copyright{
+    font-size: 10px;
+    color: rgb(137, 137, 137);
+    padding-top: 2px;
+}
+
+.my-footer-border{
+    border-top: 1px solid rgb(137, 137, 137);
+}
+
+
 div{
     box-sizing: border-box !important;
 }
@@ -326,4 +391,188 @@ div{
 
 
 
+/* Footer section */
+.footer{
+    background-color: #191919;
+    margin-top: 100px;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+/* .footer-section1{
+    width: 70%;
+} */
+
+#footer-table{
+    width: 100%;
+}
+
+.footer-header-row th{
+    color: white;
+    text-align: left;
+    font-size: 0.875rem;
+    font-weight: 900;
+    padding: 20px 5px;
+}
+.footer-data-row td{
+    padding: 8px 5px;
+}
+
+.footer-data-row a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #898989;
+    font-weight: 500;
+    text-align: left;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.footer-data-row a:hover{
+    cursor: pointer;
+    color:white;
+    border-bottom: 1px solid white;
+}
+
+.footer-section2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5px;
+}
+
+.footer-connect-us{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+
+.footer-logos{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.footer-circle{
+    margin-right: 10px;
+    height:30px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.footer-logos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.footer-input input{
+    margin-top: 10px;
+    margin-bottom:10px;
+    width: 380px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border: 1px solid #898989;
+    border-radius: 15px;
+}
+
+.footer-images{
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    border: 1px solid #898989;
+    border-radius: 16px;
+    margin-top: 15px;
+}
+
+.footer-qr{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #898989;
+    padding: 16px;
+    
+}
+
+
+
+.footer-play-button{
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+}
+
+.footer-play-button h1{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-left: 8px;
+}
+
+.footer-end{
+    border-top: 1px solid #898989;
+    margin:4px 40px;
+    margin-bottom: 0;
+    padding:10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-end p{
+    color: white;
+}
+
+
+
+.footer-end-block2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    flex-grow:1;
+    justify-content: space-between;
+}
+
+.my-footer-card{
+    background-color: #191919;
+    border: 1px solid #898989;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.my-footer-card-title{
+    padding-left: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.my-footer-para{
+    padding-left: 15px;
+    color: rgb(137, 137, 137);
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 5px;
+    
+}
+
+.my-footer-end-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
 
